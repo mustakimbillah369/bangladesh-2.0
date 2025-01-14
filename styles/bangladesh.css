@@ -69,3 +69,67 @@ main section{
   border-radius: 16px;
   border: 2px solid #a1c2ba;
 }
+
+.pillar-name{
+  font-size: 20px;
+}
+.pillar-description{
+  font-size: 16px;
+  color: #7b7373;
+}
+.visions-container{
+  display: flex;
+  gap: 28px;
+}
+.vision-name{
+  font-size: 20px;
+}
+.vision-description{
+  font-size: 16px;
+  color: #696464;
+}
+.vision-a{
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid #a1c2ba;
+  background-color: rgba(84, 144, 245, 0.2);
+}
+.vision-b{
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid #a1c2ba;
+  background-color: rgb(198, 228, 214);
+}
+.vision-c{
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid #a1c2ba;
+  background-color: rgb(247, 235, 207);
+}
+.vision-btn-a{
+  color: white;
+  padding: 20px;
+  background-color: rgb(84, 144, 245);
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+.vision-btn-b{
+  color: white;
+  padding: 20px;
+  background-color: rgb(9, 161, 92);
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+.vision-btn-c{
+  color: white;
+  padding: 20px;
+  background-color: rgb(255, 194, 57);
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
