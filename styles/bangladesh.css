@@ -81,6 +81,7 @@ main section{
   display: flex;
   gap: 28px;
 }
+
 .vision-name{
   font-size: 20px;
 }
@@ -132,4 +133,139 @@ main section{
   font-size: 16px;
   border: none;
   border-radius: 5px;
+}
+.yunus{
+  display: flex;
+  flex-direction: column;
+  padding: 48px 24px 48px 24px;
+  border: 2px solid rgba(14, 14, 14, 0.15);
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgb(191, 187, 187);
+}
+.quote-img{
+  position: absolute;
+}
+.opinion{
+  display: flex;
+  justify-content: left;
+}
+.opinion-data{
+  box-shadow: 0px 5px 10px #a1c2ba;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 20px;
+}
+h1{
+  text-align: left;
+}
+
+.opinion-table thead{
+background-color: #93cfc0;
+border: 1px solid;
+}
+.opinion-table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.opinion-table thead th{
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+}
+.opinion-table tbody tr{
+  border: 1px solid;
+}
+..opinion-table td select{
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.opinion-table td{
+  padding: 10px;
+}
+.yes-no-btn{
+  background-color: #93cfc0;
+  border-radius: 4px;
+}
+.ques{
+  font-size: 16px;
+  font-weight: 600;
+  padding: 24px;
+  gap: 12;
+  margin: 0px 12px;
+}
+.news{
+  display: flex;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0px 6px 30px 0px rgb(186, 178, 178);
+
+}
+.news-a{
+  box-shadow: 1px 1px 1px 1px rgb(189, 194, 196);
+  border: none;
+  border-radius: 16px;
+}
+.news-b{
+  box-shadow: 1px 1px 1px 1px rgb(189, 194, 196);
+  padding: 30px;
+  border: none;
+  border-radius: 16px;
+  background-color: #ede6e6;
+}
+.news-btn{
+  background-color: rgb(0, 106, 80);
+  border-radius: 8px;
+  padding: 13px 26px 13px 26px;
+  color: white;
+  border: none;
+}
+.taka{
+  display:flex;
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+  justify-content: space-around;
+  font-weight: 700;
+  padding: 40px;
+  font-size: 40px;
+  gap: 24;
+}
+.donate{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.inputs{
+  text-align: center;
+  border: 1px solid rgb(107, 101, 101);
+  border-radius: 5px;
+  padding: 20px;
+  color: black;
+  width: 600;
+  font-size: 40px;
+}
+.donate-section{
+  text-align: center;
+}
+
+.footer-div{
+  text-align: center;
+  background-color: rgb(198, 228, 214);
+  border-radius: 10px;
+  width: auto;
+  padding: 30px 20px;
+  gap: 10;
+}
+.input-your-email{
+  line-height: 19px;
+  border-radius: 8px;
+  text-align: left;
+  font-weight: 400;
+  /* margin: 12px; */
+  padding: 10px;
+  /* gap: 12; */
+  color: black;
+  font-size: 16px;
+  border: none;
 }
