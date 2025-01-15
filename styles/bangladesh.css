@@ -152,44 +152,38 @@ main section{
   color: black;
   margin-top: 10px;
 }
-.opinion{
-  display: flex;
-  justify-content: left;
-}
-.opinion-data{
-  box-shadow: 0px 5px 10px #a1c2ba;
-  border: 1px solid;
-  border-radius: 10px;
-  padding: 20px;
-}
-h1{
+
+.opinion-table{
+  border-collapse: collapse;
+  margin: 25px 0px;
+  font-size: 20px;
+  min-width: 400px;
+  box-shadow: 4px 4px 4px 4px rgb(165, 157, 157);
+  border-radius: 20px;
   text-align: left;
+  width: 1500px;
 }
 
-.opinion-table thead{
-background-color: #93cfc0;
-border: 1px solid;
-}
-.opinion-table{
-  width: 100%;
-  border-collapse: collapse;
-}
-.opinion-table thead th{
+.opinion-table thead tr{
+  color: rgb(40, 37, 37);
+  background-color: #93cfc0;
   text-align: left;
-  padding: 10px;
-  font-weight: bold;
+  border-bottom: 2px solid;
+}
+
+.opinion-table th, .opinion-table td{
+  padding: 12px 15px;
 }
 .opinion-table tbody tr{
-  border: 1px solid;
+  border-bottom: 1px solid;
 }
-..opinion-table td select{
+
+.opinion-table td select{
   padding: 10px;
   border: 1px solid;
   border-radius: 5px;
 }
-.opinion-table td{
-  padding: 10px;
-}
+
 .yes-no-btn{
   background-color: #93cfc0;
   border-radius: 4px;
