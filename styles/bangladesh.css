@@ -2,6 +2,9 @@
   font-family: "Fira Sans", serif;
   font-style: normal;
 }
+body {
+  padding: 0px 60px;
+}
 .nav-content {
   display: flex;
   align-items: center;
@@ -58,8 +61,11 @@ main section {
   margin-bottom: 70px;
 }
 
+.pillars {
+}
 .pillars-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 28px;
 }
 .pillar {
@@ -67,6 +73,7 @@ main section {
   box-shadow: 0px 6px 30px 0px #c6e4d6;
   border-radius: 16px;
   border: 2px solid #a1c2ba;
+  width: auto;
 }
 
 .pillar-name {
@@ -77,7 +84,8 @@ main section {
   color: #7b7373;
 }
 .visions-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 28px;
 }
 
@@ -158,12 +166,12 @@ main section {
   border-spacing: 0;
   margin: 25px 0px;
   font-size: 20px;
-  min-width: 400px;
   box-shadow: 4px 4px 4px 4px rgb(165, 157, 157);
   border-radius: 20px;
   overflow: hidden;
   text-align: left;
-  width: 1500px;
+  width: 100%;
+  max-width: auto;
 }
 
 .opinion-table thead tr {
@@ -207,18 +215,23 @@ main section {
   padding: 30px;
   border-radius: 18px;
   box-shadow: 0px 6px 30px 0px rgb(186, 178, 178);
+  gap: 20px;
 }
-.news-a {
-  box-shadow: 1px 1px 1px 1px rgb(189, 194, 196);
-  border: none;
-  border-radius: 16px;
-}
+
+.news-a,
 .news-b {
   box-shadow: 1px 1px 1px 1px rgb(189, 194, 196);
-  padding: 30px;
   border: none;
   border-radius: 16px;
+}
+.news-a {
+  flex-shrink: 0;
+}
+
+.news-b {
+  padding: 30px;
   background-color: #ede6e6;
+  flex: 1;
 }
 .news-btn {
   background-color: rgb(0, 106, 80);
