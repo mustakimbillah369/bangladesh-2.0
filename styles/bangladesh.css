@@ -1,113 +1,112 @@
-
 .fira-sans-normal {
   font-family: "Fira Sans", serif;
   font-style: normal;
 }
-.nav-content{
+.nav-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0px auto;
 }
-nav div a h2{
+nav div a h2 {
   color: black;
 }
-nav div a{
+nav div a {
   text-decoration: none;
 }
-.btn-sign-in{
+.btn-sign-in {
   background-color: white;
-  color: #006A50;
-  border: 1px solid #006A50;
+  color: #006a50;
+  border: 1px solid #006a50;
   padding: 15px 30px;
   border-radius: 6px;
   font-size: 20px;
   font-weight: bold;
 }
-.banner{
+.banner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #C6E4D6;
-  padding: 60px 80px 60px 80px ;
+  background-color: #c6e4d6;
+  padding: 60px 80px 60px 80px;
   height: auto;
   border-radius: 10px;
 }
-.banner-sub-title{
+.banner-sub-title {
   color: #5d5959;
   font-size: 24px;
   gap: 0;
   margin: 0;
 }
-.banner-title{
+.banner-title {
   font-size: 56px;
   font-weight: 700;
   margin: 0;
 }
-.banner-btn{
+.banner-btn {
   font-size: 18px;
   padding: 17px 34px 17px 34px;
   color: white;
-  background-color: #006A50;
+  background-color: #006a50;
   border: none;
   border-radius: 5px;
   margin: 0;
 }
 
-main section{
+main section {
   margin-top: 70px;
   margin-bottom: 70px;
 }
 
-.pillars-container{
+.pillars-container {
   display: flex;
   gap: 28px;
 }
-.pillar{
+.pillar {
   padding: 26px;
-  box-shadow: 0px 6px 30px 0px #C6E4D6;
+  box-shadow: 0px 6px 30px 0px #c6e4d6;
   border-radius: 16px;
   border: 2px solid #a1c2ba;
 }
 
-.pillar-name{
+.pillar-name {
   font-size: 20px;
 }
-.pillar-description{
+.pillar-description {
   font-size: 16px;
   color: #7b7373;
 }
-.visions-container{
+.visions-container {
   display: flex;
   gap: 28px;
 }
 
-.vision-name{
+.vision-name {
   font-size: 20px;
 }
-.vision-description{
+.vision-description {
   font-size: 16px;
   color: #696464;
 }
-.vision-a{
+.vision-a {
   padding: 32px;
   border-radius: 16px;
   border: 1px solid #a1c2ba;
   background-color: rgba(84, 144, 245, 0.2);
 }
-.vision-b{
+.vision-b {
   padding: 32px;
   border-radius: 16px;
   border: 1px solid #a1c2ba;
   background-color: rgb(198, 228, 214);
 }
-.vision-c{
+.vision-c {
   padding: 32px;
   border-radius: 16px;
   border: 1px solid #a1c2ba;
   background-color: rgb(247, 235, 207);
 }
-.vision-btn-a{
+.vision-btn-a {
   color: white;
   padding: 20px;
   background-color: rgb(84, 144, 245);
@@ -116,7 +115,7 @@ main section{
   border: none;
   border-radius: 5px;
 }
-.vision-btn-b{
+.vision-btn-b {
   color: white;
   padding: 20px;
   background-color: rgb(9, 161, 92);
@@ -125,7 +124,7 @@ main section{
   border: none;
   border-radius: 5px;
 }
-.vision-btn-c{
+.vision-btn-c {
   color: white;
   padding: 20px;
   background-color: rgb(255, 194, 57);
@@ -134,7 +133,7 @@ main section{
   border: none;
   border-radius: 5px;
 }
-.yunus{
+.yunus {
   display: flex;
   flex-direction: column;
   padding: 48px 24px 48px 24px;
@@ -143,78 +142,85 @@ main section{
   box-shadow: 0px 5px 10px rgb(191, 187, 187);
   margin-bottom: 20px;
 }
-.quote-img{
+.quote-img {
   position: absolute;
 }
-.author-name{
+.author-name {
   font-weight: bold;
   font-size: 30px;
-  color: black;
+  color: #0e0e0e;
   margin-top: 10px;
+  margin-bottom: 0px;
 }
 
-.opinion-table{
-  border-collapse: collapse;
+.opinion-table {
+  border-collapse: separate;
+  border-spacing: 0;
   margin: 25px 0px;
   font-size: 20px;
   min-width: 400px;
   box-shadow: 4px 4px 4px 4px rgb(165, 157, 157);
   border-radius: 20px;
+  overflow: hidden;
   text-align: left;
   width: 1500px;
 }
 
-.opinion-table thead tr{
+.opinion-table thead tr {
   color: rgb(40, 37, 37);
   background-color: #93cfc0;
   text-align: left;
+}
+.opinion-table thead th {
   border-bottom: 2px solid;
 }
-
-.opinion-table th, .opinion-table td{
+.opinion-table th,
+.opinion-table td {
   padding: 12px 15px;
 }
-.opinion-table tbody tr{
+.opinion-table tbody td {
   border-bottom: 1px solid;
 }
 
-.opinion-table td select{
+.opinion-table tbody tr:last-child td {
+  border-bottom: none;
+}
+.opinion-table td select {
   padding: 10px;
   border: 1px solid;
   border-radius: 5px;
 }
 
-.yes-no-btn{
+.yes-no-btn {
   background-color: #93cfc0;
   border-radius: 4px;
 }
-.ques{
+.ques {
   font-size: 16px;
   font-weight: 600;
   padding: 24px;
   gap: 12;
   margin: 0px 12px;
 }
-.news{
+.news {
   display: flex;
   padding: 30px;
   border-radius: 18px;
   box-shadow: 0px 6px 30px 0px rgb(186, 178, 178);
-
 }
-.news-a{
+.news-a {
   box-shadow: 1px 1px 1px 1px rgb(189, 194, 196);
   border: none;
   border-radius: 16px;
 }
-.news-b{
+.news-b {
   box-shadow: 1px 1px 1px 1px rgb(189, 194, 196);
   padding: 30px;
   border: none;
   border-radius: 16px;
   background-color: #ede6e6;
 }
-.news-btn{
+.news-btn {
   background-color: rgb(0, 106, 80);
   border-radius: 8px;
   padding: 13px 26px 13px 26px;
@@ -222,7 +228,7 @@ main section{
   border: none;
 }
 
-.donate-option{
+.donate-option {
   display: flex;
   justify-content: space-between;
   padding: 15px;
@@ -230,7 +236,7 @@ main section{
   border-radius: 10px;
 }
 
-.donate-box{
+.donate-box {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -242,7 +248,7 @@ main section{
   margin-bottom: 15px;
 }
 
-.donate-btn{
+.donate-btn {
   color: black;
   padding: 20px;
   border: 1px solid;
@@ -252,7 +258,7 @@ main section{
   background-color: white;
 }
 
-.donate-btn-select{
+.donate-btn-select {
   color: black;
   padding: 20px;
   border: 1px solid;
@@ -262,7 +268,7 @@ main section{
   background-color: #93cfc0;
 }
 
-.other-amount{
+.other-amount {
   border: 1px solid;
   background-color: white;
   border-radius: 10px;
@@ -270,7 +276,7 @@ main section{
   font-size: 20px;
 }
 
-.footer-div{
+.footer-div {
   text-align: center;
   background-color: rgb(198, 228, 214);
   border-radius: 10px;
@@ -279,7 +285,7 @@ main section{
   gap: 10;
 }
 
-.input-your-email{
+.input-your-email {
   line-height: 19px;
   border-radius: 8px;
   text-align: left;
@@ -290,10 +296,10 @@ main section{
   border: none;
 }
 
-.last-footer{
+.last-footer {
   text-align: center;
 }
-.last-footer a{
+.last-footer a {
   padding: 10px;
   margin: 10px;
 }
